@@ -8,13 +8,11 @@
     <title>Tela de login</title>
 </head>
 <body>
-    <center>
-        <h1>login</h1>
-        <form id="form-login" action= "logado.php" method= "POST">
-            login: <input type="text" name= "login" require><br>
-            senha: <input type="password" name= "senha" require><br>
-            <input type="submit" name="entrar" value="entrar">
-         </form>
-     <center>    
+    <form id="login" action= "logado.php" method= "Post">
+        login: <input type="text" name= "login"><br>
+        senha: <input type="password" name= "senha"><br>
+        <input type="submit" name="entrar" value="entrar">
+
+    </form>
 </body>
 </html>
