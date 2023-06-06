@@ -3,9 +3,9 @@ session_start();
 ?>
 
 <html>
-  <body>
+  <link rel= "stylesheet" type = "text/css" href = "estilo.css">
     <center>
-    <h1>Olá, <?php
+    <h1>Bem vindo, <?php
     if(isset($_SESSION['nome'])==null){
     ?>
      Visitante </h1>
@@ -18,5 +18,21 @@ session_start();
          <a href="logout.php">Sair</a>
          <?php } ?>
      </center>
+     <body>
+    <head>
+      <body>
+
+      <style>
+    
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    </style>
+    </head>
+  </body>
    <body>
 </html>
