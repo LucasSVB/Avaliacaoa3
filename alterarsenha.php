@@ -39,6 +39,67 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 <head>
     <title>Alterar Senha</title>
+    <style>
+        body {
+			font-family: Arial, sans-serif;
+			background-color: #9676c5;
+		}
+
+        center {
+            margin-top: 100px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: blue;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: red;
+        }
+
+        a {
+            color: #0d67a3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <center>
@@ -53,11 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label for="new_password">Nova Senha:</label>
         <input type="password" name="new_password" required><br><br>
 
-        <input type="submit" value="Alterar Senha">
+        <input type="submit" value="Alterar senha">
         <p>
-        <a href="login.php">Voltar</a><br>
+        <a href= "index.php">Voltar</a><br>
         </p>
-    </form>
-    </center>
-</body>
-</html>
