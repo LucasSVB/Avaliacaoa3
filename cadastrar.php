@@ -1,5 +1,5 @@
 <?php
-include ("conexao.php");
+include ("conexão.php");
 $nome = isset($_POST['nome'] ) ? $_POST['nome'] : '';
 $login = isset($_POST['login'] ) ? $_POST['login'] : '';
 $senha = isset($_POST['senha']) ? $_POST['senha'] : '';
