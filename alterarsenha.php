@@ -42,53 +42,53 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <style>
         body {
 			font-family: Arial, sans-serif;
-			background-color: #9676c5;
+			background-color: lavender;
 		}
 
         center {
-            margin-top: 100px;
+            margin-top: 50px;
         }
 
         h1 {
-            color: #333;
+            color: black;
         }
 
         form {
-            width: 300px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            padding: 40px;
+            background-color: gray;
+            border-radius: 100px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
 
         label {
             display: block;
             margin-bottom: 10px;
-            color: #333;
+            color: black;
         }
 
         input[type="text"],
         input[type="password"] {
-            width: 100%;
+            width: 50%;
             padding: 10px;
             margin-bottom: 10px;
             border: 1px solid #ccc;
-            border-radius: 4px;
+            border-radius: 50px;
             box-sizing: border-box;
         }
 
         input[type="submit"] {
-            width: 100%;
+            width: 30%;
             padding: 10px;
-            background-color: blue;
-            color: #fff;
+            background-color: gainsboro;
+            color: black;
             border: none;
-            border-radius: 4px;
+            border-radius: 10px;
             cursor: pointer;
         }
 
         input[type="submit"]:hover {
-            background-color: red;
+            background-color: paleturquoise;
         }
 
         a {
