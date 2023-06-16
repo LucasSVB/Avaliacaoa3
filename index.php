@@ -11,19 +11,19 @@ session_start();
 	<style>
 		body {
 			font-family: Arial, sans-serif;
-			background-color: #f1f1f1;
+			background-color: whitesmoke;
 		}
 
 		center {
-			margin-top: 100px;
+			margin-top: 200px;
 		}
 
 		h1 {
-			color: #333;
+			color: black;
 		}
 
 		a {
-			color: #999;
+			color: black;
 			text-decoration: none;
 		}
 
