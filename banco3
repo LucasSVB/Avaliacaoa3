@@ -10,7 +10,7 @@ senha VARCHAR (100),
 );
 
 INSERT INTO login (nome, login, senha)
-VALUES ('administrador', 'admin', 'fp123');
+VALUES ('administrador', 'lunardelli', 'sim');
 
 GRANT ALL PRIVILEGES ON banco3.* TO 'seu_usuario'@'localhost' IDENTIFIED BY 'sua_senha';
 FLUSH PRIVILEGES;
