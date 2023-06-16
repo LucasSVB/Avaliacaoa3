@@ -1,3 +1,4 @@
+
 <?php
 include ("conexão.php");
 $nome = isset($_POST['nome'] ) ? $_POST['nome'] : '';
@@ -8,7 +9,7 @@ $insert = "insert into login (nome, login, senha)
 values
 ('$nome', '$login', '$senha')";
 
-$query=mysqli_query($conexao, $insert);
+$query=mysqli_query($conexão, $insert);
 ?>
 
 <html>
