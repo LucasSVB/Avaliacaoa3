@@ -3,41 +3,47 @@
 <head>
     <title>Cadastro</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f1f1f1;
-            text-align: center;
-            padding-top: 100px;
-        }
+       body {
+			font-family: Arial, sans-serif;
+			background-color: blanchedalmond;
+		}
 
-        h1 {
-            color: #333;
-        }
+		center {
+			margin-top: 100px;
+		}
 
-        form {
-            margin-top: 20px;
-        }
+		h1 {
+			color: black;
+		}
+
+		form {
+			width: 400px;
+			padding: 40px;
+			background-color: gray;
+			border-radius: 100px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		}
 
         input[type="text"],
         input[type="password"] {
-            padding: 8px;
-            margin-bottom: 10px;
+            padding: 10px;
+            margin-bottom: 20px;
             width: 200px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
 
         input[type="submit"] {
-            padding: 8px 15px;
-            background-color: #4CAF50;
-            color: #fff;
+            padding: 10px 25px;
+            background-color: gainsboro;
+            color: black;
             border: none;
             border-radius: 4px;
             cursor: pointer;
         }
 
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: lavender;
         }
 
         a {
